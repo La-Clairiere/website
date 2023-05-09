@@ -1,6 +1,5 @@
 <?php
-require_once "config.php";
-function getDB(): PDO
+function getDB($config): PDO
 {
     $dsn =  'mysql:host=localhost;dbname='.$config['dbName'];
     $username = $config['dbUsername'];
