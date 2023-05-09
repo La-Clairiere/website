@@ -1,7 +1,7 @@
 <?php 
 $config = [
     "dbName"=>'laClairiere',
-    "dbUsername"=>'',
+    "dbUsername"=>'root',
     "dbPassword"=>''
 
 ];
