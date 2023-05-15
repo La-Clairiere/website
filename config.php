@@ -1,6 +1,6 @@
 <?php 
 $config = [
-    "dbName"=>'laClairiere',
+    "dbName"=>'laclairiere',
     "dbUsername"=>'root',
     "dbPassword"=>''
 
