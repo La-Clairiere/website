@@ -1,6 +1,7 @@
 <?php
-function getDB($config): PDO
+function getDB(): PDO
 {
+    global $config;
     $dsn =  'mysql:host=localhost;dbname='.$config['dbName'];
     $username = $config['dbUsername'];
     $password = $config['dbPassword'];
