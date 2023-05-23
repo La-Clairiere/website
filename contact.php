@@ -9,3 +9,5 @@ if (!empty($_SESSION['message'])) {
 }
 
 $page_title = 'Contact';
+
+require_once 'databaseConnection.php';
