@@ -15,7 +15,11 @@ require_once 'app/model/databaseConnection.php';
 require_once 'app/model/contact.model.php';
 
 if (isset($_POST['envoyer'])){
-    sendForm();
+    if (sendForm()) {
+        $message="Votre message est bien envoyé.";
+    } else {
+        $message="Il y a eu une erreur lors de l'envoi de votre message.";
+    }
 }
 
 require_once 'app/view/contact.view.php';
