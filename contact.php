@@ -13,6 +13,11 @@ $page_title = 'Contact';
 ob_start();
 require_once 'app/model/databaseConnection.php';
 require_once 'app/model/contact.model.php';
+
+if (isset($_POST['envoyer'])){
+    sendForm();
+}
+
 require_once 'app/view/contact.view.php';
 
 $content = ob_get_clean();
