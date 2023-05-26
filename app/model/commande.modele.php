@@ -6,7 +6,13 @@ function getAllBeers()
     $res = $req->fetchAll(PDO::FETCH_ASSOC);
     return $res;
 }
-
+function changeBeerStock($id, $commande)
+{
+    $sql = "UPDATE biere SET etat_stock = etat_stock - :commande WHERE ref_biere = :ref";
+    $req = getDB()->prepare($sql);
+    $res = $req->execute(["commande" => $commande, "ref" => $id]);
+    return $res;
+}
 //Fait l'insertion de la commande de la BDD
 function addOrder($qty, $name, $first_name, $address, $mail, $tel, $date, $status, $references, $price)
 {
