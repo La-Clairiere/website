@@ -8,7 +8,7 @@ $page_title = 'Commande';
 
 ob_start();
 
-require_once 'app/model/commande.modele.php';
+require_once 'app/model/commande.model.php';
 
 $all_beers = getAllBeers();
 
