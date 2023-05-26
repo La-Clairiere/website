@@ -4,6 +4,9 @@
 //Page affichée lors de la validation du formulaire de commande
 if ($res) {
     echo ("<h1> Félicitations votre commande est envoyée!</h1>");
+      foreach ($_POST["beersQuantity"] as $key => $value) {
+        $stockUpdate = changeBeerStock($key, $value);
+    } 
 ?>
 
     <table>
