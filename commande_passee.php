@@ -7,7 +7,7 @@ $page_title = 'Commande';
 
 ob_start();
 
-require_once 'app/model/commande.model.php';
+require_once 'app/model/commande.modele.php';
 $date = date("Y-m-d h:i:s");
 //Parcourt du tableau des quantités de bières commandées de chaque 
 //Passage d'une commande différente pour chaque type de bière
