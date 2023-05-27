@@ -27,7 +27,7 @@ function getCatalogue(array $filters = [], $detail = true) {
         $cols = '*';
     }
     else {
-        $cols = 'ref_biere, nom, prix, couleur_hexa, couleur_texte, ingredients_titre';
+        $cols = 'ref_biere, nom, prix, couleur_hexa, couleur_texte, type, ingredients_titre';
     }
     $sql = 'SELECT '.$cols.' FROM biere WHERE '.$req_filters;
     $req_cata = getDB()->prepare($sql);
