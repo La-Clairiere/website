@@ -31,7 +31,7 @@
                         echo ('<td>' . $beer["prix"] . '€</td>');
                         echo ("<td>");
                         //Empeche la commande en cas de rupture de stock
-                        if ($beer["etat_stock"] == 0) {
+                        if ($beer["etat_stock"] < 1) {
                             echo ("Rupture de stock");
                         } else {
                             echo ('<input type="number" name="beersQuantity[' . $beer["ref_biere"] . ']" min ="0" max="' . $beer["etat_stock"] . '"/>');
