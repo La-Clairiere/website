@@ -36,7 +36,7 @@
                         } else {
                             echo ('<input type="number" name="beersQuantity[' . $beer["ref_biere"] . ']" min ="0" max="' . $beer["etat_stock"] . '"/>');
                             //Ajout d'un champ caché avec le prix de la bière associée à la référence
-                            echo ('<input hidden name="beersPrice[' . $beer["ref_biere"] . ']" value="' . $beer["prix"] . '"/>');
+                            echo ('<input type="hidden" name="beersPrice[' . $beer["ref_biere"] . ']" value="' . $beer["prix"] . '"/>');
                         }
                         echo ("</td>");
                         echo ("</tr>");
