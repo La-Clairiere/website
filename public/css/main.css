@@ -180,3 +180,66 @@ fieldset legend {
     font-size: 24px;
     margin-bottom: 10px;
 }
+/*END FORMS*/
+
+/*BEGIN CATALOGUE*/
+#catalogue {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+  }
+  
+  .biere-block img {
+    height: 500px;
+    transition: filter 0.5s ease;
+  }
+  
+  .biere-block {
+    gap: 20px 20px;
+    margin: 20px;
+    background-color: var(--beer_bgcolor, #8f7d72);
+    color: var(--beer_color, white);
+    border-radius: 3px;
+    padding: 10px;
+  }
+  
+  .biere-block a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .biere-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    transition: filter 0.5s ease;
+  }
+  
+  .biere-title:hover {
+    filter: brightness(1);
+    transition: filter 0.5s ease;
+  }
+  
+  .biere-block:hover img {
+    filter: saturate(0.5);
+    transition: filter 0.5s ease;
+  }
+  
+  .biere-order {
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: rgba(255,255,255,0.2);
+    transition: background-color 500ms ease-in-out;
+  }
+  .biere-order:hover {
+    background: rgba(255,255,255,0.4);
+    transition: background-color 500ms ease-in-out;
+  }
+  .biere-prix {
+    text-align: right;
+    font-size: 18px;
+  }
+  /*END CATALOGUE*/
