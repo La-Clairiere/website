@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    color: #000000;
+    background-color: #efeceb;
+}
+
+main {
+    width: 90%;
+    max-width: 1600px;
+    margin: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: inline-block;
+    flex-wrap: wrap;
+}
+
+nav li {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+nav a {
+    text-decoration: none;
+    display: block;
+}
+
+label, input {
+    display: inline-block;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*BEGIN HEADER*/
+header {
+    background-color: #543a29;
+    color: white;
+    padding: 5px 10px;
+}
+
+header nav a {
+    padding: 15px 20px;
+    margin-right: 10px;
+}
+
+header nav a, header nav a:visited {
+    color: white;
+    text-transform: capitalize;
+    transition: color 500ms ease-in-out;
+}
+
+header nav a:hover {
+    color:#dcd6d3;
+    transition: color 500ms ease-in-out;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+#header_logo {
+    height: 30px;
+    vertical-align: middle;
+    width: auto;
+}
+/*END HEADER*/
+
+/*BEGIN FOOTER*/
+footer {
+    margin-top: 50px;
+    min-height: 100px;
+    background-color: #543a29;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+footer nav {
+    text-align: right;
+}
+
+footer nav a, footer nav a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+footer nav a:hover {
+    color: #dcd6d3;
+    transition: color 500ms ease-in-out;
+}
+
+#footer_insta_logo {
+    width: 35px;
+    height: auto;
+    filter: invert(1);
+    -webkit-filter: invert(1);
+    vertical-align: middle;
+}
+/* END FOOTER */
+
+/* BEGIN HEADINGS*/
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'matcha', 'Nunito Sans', sans-serif;
+    margin: 0;
+    font-weight: light;
+    color: #543a29;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: lighter;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+h4, h5, h6 {
+    font-size: 24px;
+}
+/*END HEADINGS*/
+
+/*BEGIN FORMS*/
+label, input, select, option, fieldset, legend {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+}
+
+input, select {
+    border: 1px solid #543a29;
+    padding: 7px;
+    border-radius: 3px;
+    margin: 5px;
+}
+
+button, input[type="submit"], a.btn, a.button {
+    appearance: button;
+    background-color: #543a29;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    min-width: 100px;
+    border: none;
+    border-radius: 3px;
+    transition: all ease-in-out 500ms;
+}
+
+button:hover {
+    color: #543a29;
+    background-color: #dcd6d3;
+    transition: all ease-in-out 500ms;
+}
+
+fieldset {
+    border: none;
+}
+
+fieldset legend {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
