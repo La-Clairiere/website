@@ -9,6 +9,10 @@
                 <img src="public/images/bieres/bouteille_<?=$biere['ref_biere']?>.png" alt="<?=$biere['nom']?>">
                 <div class="biere-title"><?=$biere['nom']?></div>
                 <div class="biere-flavour"><?=$biere['ingredients_titre']?></div>
+                <div class="biere-buy">
+                    <div class="biere-prix"><?=number_format($biere['prix'],2,',',' ')?></div>
+                    <div class="biere-order"><a href="commande.php">Commander</a></div>
+                </div>
             </a>
         </div>
     <?php endforeach?>
