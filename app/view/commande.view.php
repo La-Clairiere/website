@@ -1,16 +1,14 @@
-<link rel="stylesheet" href="public/css/commande.css">
-
 <div class="page-content">
     <h1>Formulaire de commande</h1>
 
     <form method="POST" action='commande_passee.php' class="form">
         <fieldset id="commandeForm">
             <legend>Informations personnelles</legend>
-            <label>Nom :</label> <input type="text" name="nom" required />
-            <label>Prénom :</label> <input type="text" name="prenom" required />
-            <label>Adresse mail :</label> <input type="email" name="mail" required />
-            <label>Adresse : </label><input type="text" name="adresse" required />
-            <label>Télephone :</label> <input type="tel" pattern="[0-9]{10}" name="tel" required></textarea>
+            <label for="i_nom">Nom :</label> <input type="text" name="nom" id="i_nom" required />
+            <label for="i_prenom">Prénom :</label> <input type="text" name="prenom" id="i_prenom" required />
+            <label for="i_mail">Adresse mail :</label> <input type="email" name="mail" id="i_mail" required />
+            <label for="i_adresse">Adresse : </label><input type="text" name="adresse" id="i_adresse" required />
+            <label for="i_tel">Télephone :</label> <input type="tel" pattern="[0-9]{10}" name="tel" id="i_tel" required></textarea>
         </fieldset>
         <fieldset>
             <legend>Commande de bières</legend>

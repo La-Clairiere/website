@@ -147,7 +147,7 @@ label, input, select, option, fieldset, legend {
     font-size: 16px;
 }
 
-input, select {
+input, select, textarea {
     border: 1px solid #543a29;
     padding: 7px;
     border-radius: 3px;
@@ -170,6 +170,29 @@ button:hover {
     color: #543a29;
     background-color: #dcd6d3;
     transition: all ease-in-out 500ms;
+}
+
+form button {
+    margin: auto;
+    display: block;
+}
+
+form {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+form fieldset {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1200px) {
+    form {
+        width: auto;
+    }
 }
 
 fieldset {
