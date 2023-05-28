@@ -1,6 +1,7 @@
 <?php function getBiere($id) {
     $req = getDB()->prepare("SELECT * FROM biere WHERE ref_biere = :ref");
     $req->bindValue(":ref", $id, PDO::PARAM_INT);
+    $req->execute();
     $res = $req->fetch();
     return $res;
 }
