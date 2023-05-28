@@ -4,7 +4,7 @@
             <h1>Notre catalogue</h1>
             <p>Sur cette page, retrouvez l'ensemble de nos bières. Il ne vous  reste plus qu'à trouver celle que vous souhaitez découvrir en premier !</p>
             <div id="searchblock">
-                <label for="search">Rechercher</label><input type="text" name="search" id="search" class="search">
+                <input type="text" name="search" id="search" class="search" placeholder="Rechercher parmi nos bières">
             </div>
         <?php endif ?>
         <div id="catalogue" class="catalogue">
@@ -15,7 +15,7 @@
                     <div class="biere-title"><?=$biere['nom']?></div>
                     <div class="biere-flavour"><?=$biere['ingredients_titre']?></div>
                     <div class="biere-buy">
-                        <div class="biere-prix"><?=number_format($biere['prix'],2,',',' ')?></div>
+                        <div class="biere-prix"><?=number_format($biere['prix'],2,',',' ')?> &euro;</div>
                         <div class="biere-order"><a href="commande.php">Commander</a></div>
                     </div>
                 </a>
