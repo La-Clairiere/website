@@ -19,6 +19,6 @@ $biere= getBiere($id);
 $page_title = 'biere';
 
 
-require_once 'app/view/catalogue.view.php';
+require_once 'app/view/biere.view.php';
 $content = ob_get_clean();
 require_once 'app/view/common/layout.php'; 
