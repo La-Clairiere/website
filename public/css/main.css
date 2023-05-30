@@ -33,7 +33,8 @@ nav a {
     display: block;
 }
 
-label, input {
+label,
+input {
     display: inline-block;
 }
 
@@ -53,14 +54,15 @@ header nav a {
     margin-right: 10px;
 }
 
-header nav a, header nav a:visited {
+header nav a,
+header nav a:visited {
     color: white;
     text-transform: capitalize;
     transition: color 500ms ease-in-out;
 }
 
 header nav a:hover {
-    color:#dcd6d3;
+    color: #dcd6d3;
     transition: color 500ms ease-in-out;
 }
 
@@ -78,6 +80,7 @@ header {
     vertical-align: middle;
     width: auto;
 }
+
 /*END HEADER*/
 
 /*BEGIN FOOTER*/
@@ -93,7 +96,8 @@ footer nav {
     text-align: right;
 }
 
-footer nav a, footer nav a:visited {
+footer nav a,
+footer nav a:visited {
     text-decoration: none;
     color: white;
 }
@@ -110,10 +114,16 @@ footer nav a:hover {
     -webkit-filter: invert(1);
     vertical-align: middle;
 }
+
 /* END FOOTER */
 
 /* BEGIN HEADINGS*/
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'matcha', 'Nunito Sans', sans-serif;
     margin: 0;
     font-weight: light;
@@ -136,25 +146,38 @@ h3 {
     font-size: 28px;
 }
 
-h4, h5, h6 {
+h4,
+h5,
+h6 {
     font-size: 24px;
 }
+
 /*END HEADINGS*/
 
 /*BEGIN FORMS*/
-label, input, select, option, fieldset, legend {
+label,
+input,
+select,
+option,
+fieldset,
+legend {
     font-family: 'Nunito Sans', sans-serif;
     font-size: 16px;
 }
 
-input, select, textarea {
+input,
+select,
+textarea {
     border: 1px solid #543a29;
     padding: 7px;
     border-radius: 3px;
     margin: 5px;
 }
 
-button, input[type="submit"], a.btn, a.button {
+button,
+input[type="submit"],
+a.btn,
+a.button {
     appearance: button;
     background-color: #543a29;
     color: #fff;
@@ -203,6 +226,7 @@ fieldset legend {
     font-size: 24px;
     margin-bottom: 10px;
 }
+
 /*END FORMS*/
 
 /*BEGIN CATALOGUE*/
@@ -225,6 +249,7 @@ fieldset legend {
     color: var(--beer_color, white);
     border-radius: 3px;
     padding: 10px;
+    text-align: center;
 }
 
 .biere-block a {
@@ -277,3 +302,22 @@ fieldset legend {
 }
 
 /*END CATALOGUE*/
+
+/*BEGIN BIERE*/
+.biere-block.fullview-block {
+    width: 35%;
+    display: inline-block;
+}
+
+.biere-infos {
+    width: calc(35% - 42px);
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 40px;
+}
+.biere-block.fullview-block:hover img {
+    filter: none;
+}
+.biere-infos .biere-prix {
+    float: right;
+}
