@@ -100,7 +100,7 @@ footer {
 }
 
 footer nav {
-    text-align: right;
+    text-align: center; 
 }
 
 footer nav a,
@@ -115,6 +115,14 @@ footer nav a:hover {
 }
 
 #footer_insta_logo {
+    width: 35px;
+    height: auto;
+    filter: invert(1);
+    -webkit-filter: invert(1);
+    vertical-align: middle;
+}
+
+#footer_twitter_logo {
     width: 35px;
     height: auto;
     filter: invert(1);
