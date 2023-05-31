@@ -18,7 +18,6 @@ ob_start();
 
 require_once 'app/model/suivicommande.model.php';
 
-$all_beers = getAllBeers();
 $commandes = getCommandes();
 $noms_bieres = getNomsBieres();
 
