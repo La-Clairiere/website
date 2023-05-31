@@ -1,0 +1,88 @@
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .equipe-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+
+  .image {
+    width: 200px;
+    height: auto;
+  }
+  
+
+  .equipe-nom {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  
+ 
+  .equipe-poste {
+    margin-top: 5px;
+  }
+ 
+  .equipe-biographie {
+    margin-top: 5px;
+  }
+  
+
+  .biere-buy {
+    margin-top: 10px;
+  }
+  
+  .AXEL {
+    background-color: lightblue;
+  }
+  
+  .CORALIE {
+    background-color: lightgreen;
+  }
+  
+  .LUCIE {
+    background-color: lightpink;
+  }
+  
+  .NOUR {
+    background-color: lightyellow;
+  }
+  
+  .NAWAL {
+    background-color: lightsalmon;
+  }
+  
+  .GRACE {
+    background-color: lightcyan;
+  }
+  
+  .ROMAIN {
+    background-color: lightskyblue;
+  }
+  
+  .ROBIN {
+    background-color: lightcoral;
+  }
+  
+  .JADE {
+    background-color: lightseagreen;
+  }
+  
+  .FANNY {
+    background-color: lightgoldenrodyellow;
+  }
+  
+  .LIAM {
+    background-color: lightgray;
+  }
+  
+  .ETHAN {
+    background-color: lightsteelblue;
+  }
+  
