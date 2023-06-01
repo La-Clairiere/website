@@ -11,10 +11,13 @@
     </nav>
     <nav id="menu_footer">
         <ul>
-            <li> <a href="notrehistoire.php">L'entreprise</a></li>
-            <li> <a href="catalogue.php">Nos bières</a></li>
-            <li> <a href="commande.php">Commander</a></li>
-            <li> <a href="contact.php">Contact</a></li>
+            <li> <a href="notrehistoire.php">L'entreprise</a> | </li>
+            
+            <li> <a href="catalogue.php">Nos bières</a> | </li>
+            
+            <li> <a href="commande.php">Commander</a> | </li>
+            
+            <li> <a href="contact.php">Contact</a> | </li>
         </ul>
     </nav>
 </footer>
