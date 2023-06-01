@@ -1,12 +1,26 @@
   
-  .equipe-block {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 20px;
+  h1{
+    font-family: 'Matcha';
+    font-size: 25px;
+    color: #000000;
+    margin-left: 50%;
+
+  }
+
+  p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 10px;
+    color: #000000;
+    margin-left: 5%;
+  }
+
+  h2{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    color: #000000;
+    margin-left: 25%;
   }
   
-
   .equipe-photo img {
     width: 200px;
     height: auto;
@@ -14,16 +28,24 @@
   
 
   .equipe-nom {
-    font-weight: bold;
-    margin-top: 10px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    color: #000000;
+    margin-top: 5px;
   }
   
   
- 
   .equipe-poste {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 13px;
+    color: #000000;
     margin-top: 5px;
   }
  
   .equipe-biographie {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 10px;
+    color: #000000;
     margin-top: 5px;
+   
   }
