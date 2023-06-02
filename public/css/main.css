@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'matcha';
-  src: url('public/fonts/matcha.ttf') format('truetype');
+  src: local("matcha"), url('../fonts/matcha.ttf') format('truetype');
 }
 
 * {
@@ -260,7 +260,7 @@ fieldset legend {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(img/baniere.png);
+    background-image: url(../images/baniere.png);
     background-size: cover;
     background-position: center;
     font-family: 'matcha', sans-serif;
