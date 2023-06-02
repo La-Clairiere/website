@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'matcha';
+  src: url('public/fonts/matcha.ttf') format('truetype');
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -107,6 +112,7 @@ footer nav a,
 footer nav a:visited {
     text-decoration: none;
     color: white;
+    display: inline-block;
 }
 
 footer nav a:hover {
@@ -243,6 +249,83 @@ fieldset legend {
 }
 
 /*END FORMS*/
+
+/*BEGIN ACCUEIL*/
+
+.banner {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(img/baniere.png);
+  background-size: cover;
+  background-position: center;
+  font-family: 'matcha', sans-serif;
+}
+
+.banner h1 {
+  font-size: 40px;
+  color: white;
+  text-align: center;
+}
+
+
+.catalog-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.catalog-list {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.catalog-item {
+  flex: 0 0 25%;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  border: 2px solid #dcd6d3; /* Couleur du cadre */
+  background-color: #b6aaa3; /* Couleur de fond */
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  background-color: #b6aaa3; /* Couleur du cadre */
+  color: #fff;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.arrow-left {
+  left: 10px;
+}
+
+.arrow-right {
+  right: 10px;
+}
+
+.more-button {
+  width: 200px;
+  height: 50px;
+  background-color: #b6aaa3; /* Couleur du cadre */
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  margin: 20px auto;
+  display: block;
+  cursor: pointer;
+}
+
+/*END ACCUEIL*/
 
 /*BEGIN CATALOGUE*/
 #catalogue {
