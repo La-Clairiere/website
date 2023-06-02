@@ -4,16 +4,20 @@
     font-size: 25px;
     color: #000000;
     text-align: center;
-
   }
 
-  p{
+  h3{
     font-family: 'Nunito Sans', sans-serif;
     font-size: 10px;
     color: #000000;
     text-align: center;
-  
   }
+  p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 10px;
+    color: #000000;
+  }
+
 
   h2{
     font-family: 'Nunito Sans', sans-serif;
