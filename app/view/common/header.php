@@ -13,7 +13,7 @@
     <header>
         <nav id="logo_nav">
             <ul>
-                <li> <a href="accueil.php"><img id="header_logo" src="public/images/logos/la_clairiere_48b.svg"></a></li>
+                <li> <a href="index.php"><img id="header_logo" src="public/images/logos/la_clairiere_48b.svg"></a></li>
             </ul>
         </nav>
         <nav id="menu_nav">
