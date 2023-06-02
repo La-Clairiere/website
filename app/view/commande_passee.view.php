@@ -1,4 +1,3 @@
-<link rel="stylesheet" href="public/css/commande_passee.css">
 
 <?php
 //Page affichée lors de la validation du formulaire de commande

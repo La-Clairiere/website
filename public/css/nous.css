@@ -1,18 +1,23 @@
   
   h1{
     font-family: 'Matcha';
-    font-size: 25px;
+    font-size: 48px;
     color: #000000;
-    margin-left: 50%;
-
+    text-align: center;
   }
 
+  h3{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 10px;
+    color: #000000;
+    text-align: center;
+  }
   p{
     font-family: 'Nunito Sans', sans-serif;
     font-size: 10px;
     color: #000000;
-    margin-left: 5%;
   }
+
 
   h2{
     font-family: 'Nunito Sans', sans-serif;
