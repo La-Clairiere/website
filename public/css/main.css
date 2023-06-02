@@ -327,6 +327,37 @@ fieldset legend {
 
 /*END ACCUEIL*/
 
+/*BEGIN HISTOIRE*/
+.equipe-photo img {
+    width: 200px;
+    height: auto;
+  }
+  
+
+  .equipe-nom {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    color: #000000;
+    margin-top: 5px;
+  }
+  
+  
+  .equipe-poste {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 13px;
+    color: #000000;
+    margin-top: 5px;
+  }
+ 
+  .equipe-biographie {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 10px;
+    color: #000000;
+    margin-top: 5px;
+   
+  }
+  /*END HISTOIRE*/
+
 /*BEGIN CATALOGUE*/
 #catalogue {
     display: flex;
