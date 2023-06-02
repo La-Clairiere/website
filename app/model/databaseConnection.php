@@ -1,7 +1,6 @@
 <?php
 function getDB(): PDO
 {
-    global $config;
     $dsn =  'mysql:host=' . DB_HOST. ';dbname='. DB_NAME.';charset=utf8';
    
 
