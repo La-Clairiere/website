@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> <?= $page_title ?> | La Clairière </title>
     <link rel="stylesheet" href="public/css/main.css">
+    <link rel="icon" href="public/images/favicon.png">
 </head>
 
 <body>
