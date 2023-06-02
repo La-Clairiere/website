@@ -19,6 +19,7 @@
             
             <li> <a href="contact.php">Contact</a></li>
         </ul>
+        <p>L'abus d'alcool est dangereux pour la santé, à consommer avec modération.</p>
     </nav>
 </footer>
 </body>
