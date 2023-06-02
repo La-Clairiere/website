@@ -16,7 +16,7 @@
             <p><strong>o2switch</strong></p>
             <p>Chemin des Pardiaux<br>
             63000 Clermont-Ferrand<br>
-            <a href="https://o2switch.fr/" rel="nofollow">https://o2switch.fr/</a>
+            <a href="https://o2switch.fr/" target="_blank" rel="nofollow">https://o2switch.fr/</a>
         </p>
         </div>
     </div>
