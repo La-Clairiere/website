@@ -18,7 +18,7 @@
     <div class="catalog-container" >
       <div class="catalog-list">
         <div class="catalog-item">
-          <img src="images/axelmockup.png" alt="Bière 1" class="item-image">
+          <img src="public/images/accueil/axelmockup.png" alt="Bière 1" class="item-image">
           <h3>La Blonde</h3>
           <p>Une bière blonde où la douceur juteuse de la pêche rencontre les nuances florales de l'hibiscus.</p>
           <button class="like-button">
@@ -26,7 +26,7 @@
           </button>
         </div>
         <div class="catalog-item">
-          <img src="images/gracemockup.png" alt="Bière 2" class="item-image">
+          <img src="public/images/accueil/gracemockup.png" alt="Bière 2" class="item-image">
           <h3>Gracieuse</h3>
           <p>Délicatement parfumée à la fleur de cerisier, une bière florale et revigorante.</p>
           <button class="like-button">
@@ -34,7 +34,7 @@
           </button>
         </div>
         <div class="catalog-item">
-          <img src="images/nourmockup.png" alt="Bière 3" class="item-image">
+          <img src="public/images/accueil/nourmockup.png" alt="Bière 3" class="item-image">
           <h3>Vertueuse</h3>
           <p>Une bière à la myrtille et à la violette, fruitée, florale et envoûtante.</p>
           <button class="like-button">
@@ -42,7 +42,7 @@
           </button>
         </div>
         <div class="catalog-item">
-          <img src="images/romainmockup.png" alt="Bière 4" class="item-image">
+          <img src="public/images/accueil/romainmockup.png" alt="Bière 4" class="item-image">
           <h3>Douceur Inégalée</h3>
           <p>Un mariage subtil entre les arômes vibrants du jasmin et la douceur naturelle du miel.</p>
           <button class="like-button">
@@ -50,7 +50,7 @@
           </button>
         </div>
         <div class="catalog-item">
-          <img src="images/coraliemockup.png" alt="Bière 5" class="item-image">
+          <img src="public/images/accueil/coraliemockup.png" alt="Bière 5" class="item-image">
           <h3>La Brune</h3>
           <p>Une délicate harmonie de saveurs légères et rafraîchissantes. </p>
           <button class="like-button">
@@ -58,7 +58,7 @@
           </button>
         </div>
         <div class="catalog-item">
-          <img src="images/luciemockup.png" alt="Bière 6" class="item-image">
+          <img src="public/images/accueil/luciemockup.png" alt="Bière 6" class="item-image">
           <h3>La Blache</h3>
           <p>Une bière blanche rafraîchissante, offrant une expérience légère et pétillante.</p>
           <button class="like-button">
@@ -66,7 +66,7 @@
           </button>
         </div>
         <div class="catalog-item">
-          <img src="images/nawalmockup.png" alt="Bière 7" class="item-image">
+          <img src="public/images/accueil/nawalmockup.png" alt="Bière 7" class="item-image">
           <h3>Tropicale</h3>
           <p>Une fusion entre l'arôme floral envoûtant de la rose avec la douceur exotique du litchi.</p>
           <button class="like-button">
@@ -80,7 +80,7 @@
     <button class="commander-button">Commander</button>
   </div>
   <div class="informations">
-    <img src="images/IMG_3567.PNG" alt="artisants" class = imageinfo>
+    <img src="public/images/accueil/IMG_3567.PNG" alt="artisants" class ="imageinfo">
     <h3>Une histoire de bière..</h3>
     <p>Il était une fois une histoire de  </p>
 
