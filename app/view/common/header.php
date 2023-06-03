@@ -11,6 +11,7 @@
 </head>
 
 <body>
+    <?php include "app/view/parts/agecheck.part.php"?>
     <header>
         <nav id="logo_nav">
             <ul>
