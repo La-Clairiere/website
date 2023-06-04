@@ -167,7 +167,7 @@ body {
   color: rgb(255, 0, 0);
 }
 
-.commander-button {
+.voirplus-button {
   width: 200px;
   height: 50px;
   background-color: #b6aaa3; 
@@ -191,9 +191,31 @@ body {
   margin-top: 20px; 
 }
 
-.imageinfo {
- width: 800px;
- height: 600px;
- float: left;
- margin: left;
+.container {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+.image {
+  flex: 1;
+  background-image: url('chemin/vers/votre/image.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
+.text {
+  flex: 1;
+  padding: 50px;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
 }
