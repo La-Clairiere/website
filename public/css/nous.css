@@ -28,8 +28,10 @@
   
   .equipe-photo img {
     width: 200px;
-    height: auto;
-  }
+    height: 250px;
+    padding: 1em;
+    }
+  
   
 
   .equipe-nom {
@@ -53,4 +55,9 @@
     color: #000000;
     margin-top: 5px;
    
+  }
+
+  .trombinoscope {
+    display: flex;
+    justify-content: center;
   }
