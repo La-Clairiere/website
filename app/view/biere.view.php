@@ -23,7 +23,7 @@
             <div class="biere-stock">Stock : <?= ($biere['etat_stock'] > 0) ? $biere['etat_stock'] : 'Rupture de stock' ?></div>
             <?php if($biere['etat_stock'] > 0):?>
                 <div style="text-align: center; clear:both"><a class="btn" href="commande.php">Commander</a></div>
-            <?php endif ?>
+            <?php endif; ?>
         </div>
     </section>
 </div>

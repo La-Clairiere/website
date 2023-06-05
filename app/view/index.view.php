@@ -33,7 +33,7 @@
             <div class="catalog-list">
                 <?php foreach ($catalogue as $biere) : ?>
                     <div class="catalog-item" style="--beer_bgcolor:<?= $biere['couleur_hexa'] ?>; --beer_color:<?= $biere['couleur_texte'] ?>">
-                        <a href="biere.php?id=<?=$biere['ref_biere']?>"></a>
+                        <a href="biere.php?id=<?=$biere['ref_biere']?>">
                             <img src="public/images/bieres/bouteille_<?= $biere['ref_biere'] ?>.png" alt="<?= $biere['nom'] ?>" class="item-image">
                             <h3><?= $biere['nom'] ?></h3>
                             <p><?= $biere['description'] ?></p>

@@ -410,6 +410,11 @@ fieldset legend {
   height: auto;
 }
 
+.catalog-item a {
+  text-decoration: none;
+  color: inherit;
+}
+
 @media screen and (max-width: 500px) {
   .catalog-item {
     flex: 0 0 100%;
