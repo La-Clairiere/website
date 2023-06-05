@@ -1,5 +1,4 @@
 
-<link rel="stylesheet" href="public/css/nous.css">
 <div class="page-content">
     <h1>Qui sommes-nous ?</h1>
     <p style="text-align:center;">La Clairière est une brasserie artisanale qui crée des bières naturelles et de qualité brassées en France à Moissy-Cramayel.</h2>
