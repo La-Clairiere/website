@@ -16,7 +16,7 @@
 
 
 <div class="banner">
-    <h1><span class="logo">La Clairière</span></h1>
+    <img class="logo" src="public/images/logos/la_clairiere_48b.svg">
 </div>
 <section class="citation-section">
     <div class="citation-container">
