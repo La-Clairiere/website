@@ -162,10 +162,14 @@ h1 {
 
 h2 {
     font-size: 32px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 h3 {
     font-size: 28px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 h4,
@@ -312,6 +316,11 @@ fieldset legend {
     border-radius: 3px;
   }
 
+  #video_container {
+    text-align: center;
+    margin: 15px;
+  }
+
   .logo {
     transition: opacity 0.2s ease-in-out;
   }
@@ -343,18 +352,6 @@ fieldset legend {
   }
   
   
-  .citation-banner h2 {
-    color: #000000;
-    font-size: 24px;
-    margin: 0;
-  }
-  
-  .citation-banner h2 {
-    color: #000000;
-    font-size: 18px;
-    font-weight: bold;
-  }
-  
   .catalog-container {
     width: 100%;
     max-width: 1800px;
@@ -368,15 +365,7 @@ fieldset legend {
     transition: transform 0.5s ease-in-out;
   }
   
-  .catalog-item {
-    flex: 0 0 25%;
-    padding: 20px;
-    box-sizing: border-box;
-    text-align: center;
-    border: 10px solid #dcd6d3; 
-    background-color: #b6aaa3; 
-    height: 600px; 
-  }
+
   
   .catalog-item .item-image {
     transition: transform 0.3s ease;
@@ -388,7 +377,6 @@ fieldset legend {
   
   
   .catalog-page {
-    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -402,17 +390,19 @@ fieldset legend {
       padding: 20px;
       box-sizing: border-box;
       text-align: center;
-      border: 10px solid #dcd6d3; 
-      background-color: #b6aaa3; 
-      height: 600px; 
+      background-color: var(--beer_bgcolor, #b6aaa3); 
+      color: var(--beer_color, #543a29);
+      height: auto; 
+    }
+
+    .catalog-item h3 {
+      color: var(--beer_color, inherit);
     }
   
     
   
     .catalog-item img {
-      width: 80%;
-      height: 80%;
-      object-fit: cover;
+      height: 350px;
       margin: auto; 
     }
   
@@ -455,7 +445,6 @@ fieldset legend {
   .commander-button {
     width: 200px;
     height: 50px;
-    background-color: #b6aaa3; 
     color: #fff;
     font-size: 18px;
     border: none;
@@ -480,7 +469,7 @@ fieldset legend {
    width: 800px;
    height: 600px;
    float: left;
-   margin: left;
+   margin-right: 15px;
   }
 
 /*END ACCUEIL*/

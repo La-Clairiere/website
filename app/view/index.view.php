@@ -20,7 +20,7 @@
         <div class="catalog-container">
             <div class="catalog-list">
                 <?php foreach($catalogue as $biere):?>
-                <div class="catalog-item">
+                <div class="catalog-item" style="--beer_bgcolor:<?=$biere['couleur_hexa']?>; --beer_color:<?=$biere['couleur_texte']?>">
                     <img src="public/images/bieres/bouteille_<?=$biere['ref_biere']?>.png" alt="<?=$biere['nom']?>" class="item-image">
                     <h3><?=$biere['nom']?></h3>
                     <p><?=$biere['description']?></p>
@@ -33,16 +33,17 @@
             <div class="fleche fleche-gauche">←</div>
             <div class="fleche fleche-droite">→</div>
         </div>
-        <a href="commande.php"><button class="commander-button">Commander</button></a>
     </div>
+    <a href="commande.php"><button class="commander-button">Commander</button></a>
     <div class="produits">
         <h2>Nos produits en vidéo</h2>
-        <video id="spot_video" controls src="public/images/spot_video.mp4"></video>
+        <div id="video_container"><video id="spot_video" controls src="public/images/spot_video.mp4"></video></div>
     </div>
     <div class="informations">
         <img src="public/images/accueil/IMG_3567.PNG" alt="artisants" class="imageinfo">
-        <h3>Une histoire de bière..</h3>
+        <h2>Une histoire de bière..</h2>
         <p>Il était une fois une histoire de </p>
+        <div style="clear:both"></div>
     </div>
 
         <script>
