@@ -47,15 +47,21 @@
             <div class="fleche fleche-droite">→</div>
         </div>
     </div>
-    <a href="commande.php"><button class="commander-button">Commander</button></a>
+    <div style="text-align: center;">
+        <a href="commande.php"><button class="commander-button">Commander</button></a>
+        <a href="catalogue.php"><button class="commander-button">Voir tout le catalogue</button></a>
+    </div>
     <div class="produits">
         <h2>Nos produits en vidéo</h2>
         <div id="video_container"><video id="spot_video" controls src="public/images/spot_video.mp4"></video></div>
     </div>
     <div class="informations">
         <img src="public/images/accueil/IMG_3567.PNG" alt="artisants" class="imageinfo">
-        <h2>Une histoire de bière..</h2>
-        <p>Il était une fois une histoire de </p>
+        <h2>Découvez La Clairière</h2>
+        <p>Une brasserie qui propose des bières authentiques et naturelles par excellence. Savourez des arômes uniques avec une délicieuse harmonie entre tradition et innovation. Plongez dans l'essence de la bière et le charme de la nature avec La Clairière.</p>
+        <div style="text-align: center;">
+            <a href="notrehistoire.php"><button class="commander-button">Découvrez notre équipe</button></a>
+        </div>
         <div style="clear:both"></div>
     </div>
 

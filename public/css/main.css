@@ -23,6 +23,7 @@ td {
     border-collapse: collapse;
     margin-left: auto;
     margin-right: auto;
+    padding: 2px;
 }
 
 main {
@@ -223,7 +224,7 @@ button:hover {
 }
 
 form button {
-    margin: auto;
+    margin: 5px auto;
     display: block;
 }
 
@@ -340,7 +341,7 @@ fieldset legend {
   }
   .citation-section {
     background-color: #b6aaa3;
-    padding: 80px;
+    padding: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -395,6 +396,12 @@ fieldset legend {
       color: var(--beer_color, #543a29);
       height: auto; 
     }
+  
+  @media screen and (max-width: 500px) {
+    .catalog-item {
+      flex: 0 0 100%;
+    }
+  }
 
     .catalog-item h3 {
       color: var(--beer_color, inherit);
@@ -419,6 +426,8 @@ fieldset legend {
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    background-color: #543a29;
+    border-radius: 100%;
   }
   
   .fleche-gauche {
@@ -444,14 +453,15 @@ fieldset legend {
   }
   
   .commander-button {
-    width: 200px;
-    height: 50px;
+    min-width: 200px;
+    min-height: 50px;
     color: #fff;
     font-size: 18px;
     border: none;
     margin: 20px auto;
-    display: block;
+    display: inline-block;
     cursor: pointer;
+    text-decoration: none;
   }
   
   .nosproduits {
@@ -468,9 +478,10 @@ fieldset legend {
   
   .imageinfo {
    width: 800px;
-   height: 600px;
+   height: auto;
    float: left;
    margin-right: 15px;
+   margin-bottom: 20px;
   }
 
 /*END ACCUEIL*/

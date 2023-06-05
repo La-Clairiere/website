@@ -14,7 +14,6 @@
                 <div class="equipe-photo"><img src="public/images/trombinoscope/<?= $equipe['photo'] ?>" alt="<?= $equipe['nom'] ?>"></div>
                 <div class="equipe-nom"><?= $equipe['nom'] ?></div>
                 <div class="equipe-poste"><?= $equipe['poste'] ?></div>
-                <div class="equipe-biographie"><?= $equipe['biographie'] ?></div>
             </div>
         <?php endforeach ?>
     </div>
@@ -24,7 +23,6 @@
                 <div class="equipe-photo"><img src="public/images/trombinoscope/<?= $equipe['photo'] ?>" alt="<?= $equipe['nom'] ?>"></div>
                 <div class="equipe-nom"><?= $equipe['nom'] ?></div>
                 <div class="equipe-poste"><?= $equipe['poste'] ?></div>
-                <div class="equipe-biographie"><?= $equipe['biographie'] ?></div>
             </div>
         <?php endforeach ?>
     </div>
