@@ -35,6 +35,11 @@
 </p>
     </div>
   </div>
+  <div class="informations">
+    <img src="images/IMG_3567.PNG" alt="artisants" class = imageinfo>
+    <h3>Une histoire de bière..</h3>
+    <p>Il était une fois une histoire de  </p>
+
     <script> // JS du scroll du mini catalogue de biere
       const catalogList = document.querySelector('.catalog-list');
       const catalogItems = document.querySelectorAll('.catalog-item');
