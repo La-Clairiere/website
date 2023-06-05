@@ -9,7 +9,7 @@ if (!empty($_SESSION['message'])) {
     unset($_SESSION['message']);
 }
 
-$page_title = 'Acceuil';
+$page_title = 'Accueil';
 
 ob_start();
 require_once 'app/model/databaseConnection.php';
