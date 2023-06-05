@@ -11,7 +11,6 @@
         max-width: 1600px;
     }
 </style>
-<link rel="stylesheet" href="acceuil.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
 
@@ -34,12 +33,14 @@
             <div class="catalog-list">
                 <?php foreach ($catalogue as $biere) : ?>
                     <div class="catalog-item" style="--beer_bgcolor:<?= $biere['couleur_hexa'] ?>; --beer_color:<?= $biere['couleur_texte'] ?>">
-                        <img src="public/images/bieres/bouteille_<?= $biere['ref_biere'] ?>.png" alt="<?= $biere['nom'] ?>" class="item-image">
-                        <h3><?= $biere['nom'] ?></h3>
-                        <p><?= $biere['description'] ?></p>
-                        <button class="like-button">
-                            <i class="far fa-heart"></i>
-                        </button>
+                        <a href="biere.php?id=<?=$biere['ref_biere']?>"></a>
+                            <img src="public/images/bieres/bouteille_<?= $biere['ref_biere'] ?>.png" alt="<?= $biere['nom'] ?>" class="item-image">
+                            <h3><?= $biere['nom'] ?></h3>
+                            <p><?= $biere['description'] ?></p>
+                            <button class="like-button">
+                                <i class="far fa-heart"></i>
+                            </button>
+                        </a>
                     </div>
                 <?php endforeach ?>
             </div>
@@ -57,7 +58,7 @@
     </div>
     <div class="informations">
         <img src="public/images/accueil/IMG_3567.PNG" alt="artisants" class="imageinfo">
-        <h2>Découvez La Clairière</h2>
+        <h2>Découvrez La Clairière</h2>
         <p>Une brasserie qui propose des bières authentiques et naturelles par excellence. Savourez des arômes uniques avec une délicieuse harmonie entre tradition et innovation. Plongez dans l'essence de la bière et le charme de la nature avec La Clairière.</p>
         <div style="text-align: center;">
             <a href="notrehistoire.php"><button class="commander-button">Découvrez notre équipe</button></a>
