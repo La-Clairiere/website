@@ -8,6 +8,6 @@ function sendForm () {
     $mail = htmlspecialchars($_POST['mail']);
     $headers = 'Reply-To: '. $mail;
     $textemail = $nom . " " . $prenom . " vous a contacté depuis votre site avec le message suivant :\n" . $message . " \n\nAdresse mail : " . $mail;
-    return mail('la.clairiere.moissy@gmail.com', $objet, $textemail, $headers);
+    return mail('la.clairiere.moissy@gmail.com, '.$mail, $objet, $textemail, $headers);
 }
 

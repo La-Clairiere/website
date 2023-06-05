@@ -14,7 +14,7 @@
             </div>
         </div>
         <div class="biere-infos">
-            <h2>Bière <?= $biere['type'] ?><?=(str_contains(strtolower($biere['ingredients_titre']), strtolower($biere['type']))) ? '' : ' '.$biere['ingredients_titre']?></h2>
+            <h2>Bière <?= $biere['type'] ?><?=(stripos($biere['ingredients_titre'], $biere['type'])) ? '' : ' '.$biere['ingredients_titre']?></h2>
             <p class="biere-desc"><?= $biere['description'] ?></p>
             <h3>Ingrédients</h3>
             <p class="biere-ingredients"><?= $biere['ingredients'] ?></p>
