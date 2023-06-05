@@ -11,7 +11,7 @@
     </nav>
     <nav id="menu_footer">
         <ul>
-            <li> <a href="notrehistoire.php">L'entreprise</a> |</li>
+            <li> <a href="notrehistoire.php">Notre histoire</a> |</li>
             
             <li> <a href="catalogue.php">Nos bières</a> |</li>
             
