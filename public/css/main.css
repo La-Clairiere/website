@@ -310,7 +310,7 @@ fieldset legend {
     background-position: center;
     font-family: 'matcha', sans-serif;
   }
-  
+
   #spot_video {
     max-width: 100%;
     width: 800px;
@@ -325,6 +325,7 @@ fieldset legend {
 
   .logo {
     transition: opacity 0.2s ease-in-out;
+    max-width: 60%;
   }
   
   .fade-out {
