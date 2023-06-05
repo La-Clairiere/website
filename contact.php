@@ -16,7 +16,7 @@ require_once 'app/model/contact.model.php';
 
 if (isset($_POST['envoyer'])){
     if (sendForm()) {
-        $message="Votre message est bien envoyé.";
+        $message="Votre message est bien envoyé. Un accusé de réception vous a été envoyé par mail.";
     } else {
         $message="Il y a eu une erreur lors de l'envoi de votre message.";
     }
