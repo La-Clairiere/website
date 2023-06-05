@@ -4,6 +4,6 @@
 * Lucie : @ArkWeiz
 * Romain : @Romain9685
 * Nour : @Nouurr2004
-* Coralie : @coraliephp
+* Coralie : @coraliephp / @cocotheboss
 * Axel : @chattigre
 * Grace : @Graacee
