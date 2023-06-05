@@ -1,61 +1,17 @@
   
-  h1{
-    font-family: 'Matcha';
-    font-size: 48px;
-    color: #000000;
-    text-align: center;
-  }
-
-  h3{
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: 10px;
-    color: #000000;
-    text-align: center;
-  }
-  p{
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: 10px;
-    color: #000000;
-  }
-
-
-  h2{
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: 20px;
-    color: #000000;
-    margin-left: 25%;
-  }
-  
   .equipe-photo img {
     width: 200px;
-    height: 250px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;   
     padding: 1em;
     }
   
   
 
-  .equipe-nom {
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: 15px;
-    color: #000000;
-    margin-top: 5px;
-  }
-  
-  
-  .equipe-poste {
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: 13px;
-    color: #000000;
-    margin-top: 5px;
-  }
- 
-  .equipe-biographie {
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: 10px;
-    color: #000000;
-    margin-top: 5px;
-   
-  }
+.equipe-photo, .equipe-nom, .equipe-poste {
+  margin-top: 5px;
+}
 
   .trombinoscope {
     display: flex;
