@@ -16,7 +16,11 @@ require_once 'app/model/databaseConnection.php';
 require_once 'app/model/biere.model.php';
 $id= intval($_GET['id']);
 $biere= getBiere($id);
-$page_title = 'biere';
+if(empty($biere)) {
+    header("Location: catalogue.php");
+    die();
+}
+$page_title = "Bière ".$biere['nom'];
 
 
 require_once 'app/view/biere.view.php';
