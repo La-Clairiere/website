@@ -265,6 +265,15 @@ fieldset legend {
   margin-bottom: 10px;
 }
 
+.message {
+	margin: 20px;
+	text-align: center;
+	padding: 10px;
+	background-color: #543a29;
+  color: white;
+	border-radius: 3px;
+}
+
 /*END FORMS*/
 
 /*BEGIN AGECHECK*/
