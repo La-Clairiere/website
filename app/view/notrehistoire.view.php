@@ -7,8 +7,7 @@
     <h2>Nos initiatives écologiques :</h2>
     <p style="text-align:center">Nos bouteilles de bière seront consignées en combinaison avec un programme de fidélité : les clients rapportant leurs bouteilles pourraient avoir une réduction pour leurs prochaines bières. Ce système encourage la réutilisation des bouteilles de bière, réduit les déchets et récompense les clients pour leur engagement en faveur du recyclage.</p>
     <p style="text-align:center">Nous privilégions les agriculteurs français et locaux pour l'achat de nos fruits, de fleurs et de plantes. Cela contribue à soutenir l'économie locale, à réduire les émissions de gaz à effet de serre liées au transport et à favoriser une agriculture plus durable.</p>
-   <br>
-    <h3>Notre équipe : </h3>
+    <h2>Notre équipe : </h2>
     <div id="trombinoscope_mmi" class="trombinoscope">
         <?php foreach ($trombi['mmi'] as $equipe) : ?>
             <div class="equipe-block">

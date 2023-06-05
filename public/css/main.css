@@ -299,12 +299,19 @@ fieldset legend {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../images/baniere.png);
+    background-image: url(../images/accueil/baniere.png);
     background-size: cover;
     background-position: center;
     font-family: 'matcha', sans-serif;
   }
   
+  #spot_video {
+    max-width: 100%;
+    width: 800px;
+    margin: auto;
+    border-radius: 3px;
+  }
+
   .logo {
     transition: opacity 0.2s ease-in-out;
   }
